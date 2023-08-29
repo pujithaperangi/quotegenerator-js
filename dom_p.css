@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url("/home/student/Documents/javascript/p/pics/Screenshot from 2023-05-02 15-27-41.png");
+    background-size: cover;
+}
+.container{
+    width:550px;
+    height:450px;
+}
+.header{
+    font-size:1.2rem;
+    border:solid 2px white;
+    color:white;
+    background-color: black;
+    padding :5px;
+    width:90%;
+    margin:20px;
+    margin:20px auto;
+    border-radius:5px;
+}
+.main-content{
+    background:url("Screenshot from 2023-04-04 19-23-06.png");
+    background-size: cover;
+    border:2px solid  white;
+    margin: 100px;
+    width:70%;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius:30px;
+    box-shadow:0 0 20px;
+    padding:50px 40px;
+
+}
+.main-content .text-area{
+    font-size:1.5rem;
+    line-height:1.5;
+    
+}
+
+.main-content .person{
+    font-size:1.6 rem;
+    color:red;
+    text-transform:uppercase;
+    margin-top:80px;
+}
+
+.button button{
+     background-color:  rgb(24, 21, 21);
+     color:white;
+     border:2px solid white;
+     padding:10px 15px;
+     margin-top:20px;
+     border-radius:5px;
+     font-size:1.3rem;
+}
+
+.button button:active{
+    background-color:lightgray;
+}
